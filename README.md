@@ -6,6 +6,12 @@
 - Customizable 🎨
 <hr />
 
+## Instalation
+
+`npm install react-lightbox-pack`
+or
+`npm i react-lightbox-pack`
+
 ## Usage
 
 ### App.js
