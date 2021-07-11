@@ -6,6 +6,10 @@
 - Customizable 🎨
 <hr />
 
+## Example
+
+https://imshines.github.io/react-lightbox-pack/
+
 ## Instalation
 
 `npm install react-lightbox-pack`
