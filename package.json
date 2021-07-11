@@ -5,7 +5,13 @@
   "author": "imshines",
   "license": "MIT",
   "repository": "imshines/react-lightbox-pack",
-  "keywords": ["react", "lightbox", "react-lightbox", "package", "reactjs"],
+  "keywords": [
+    "react",
+    "lightbox",
+    "react-lightbox",
+    "package",
+    "reactjs"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

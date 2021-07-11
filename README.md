@@ -13,6 +13,7 @@
 ```javascript
 import React from 'react';
 import { Lightbox } from 'react-lightbox-pack';
+import "react-lightbox-pack/dist/index.css";
 import data from './data.json';
 
 const App = () => {
