@@ -2,6 +2,7 @@ import React from "react";
 import { LightBox } from "react-lightbox-pack";
 import "react-lightbox-pack/dist/index.css";
 import data from './data.json';
+import dataArr from './dataArr.json';
 
 function App() {
   const [toggle, setToggle] = React.useState(false);

@@ -113,13 +113,25 @@ const App = () => {
 ]
 ```
 
+### Sample data.json (array format)
+```json
+[
+  "https://picsum.photos/200/800",
+  "https://picsum.photos/300/200",
+  "https://picsum.photos/800/200",
+  "https://picsum.photos/500/800",
+  "https://picsum.photos/500"
+]
+```
+
 ### Props
 
 |props|type|
 |--|--|
 |state| accepts state with boolean|
 |event| accepts an event with state, selected index argument|
-|data| accepts an array of object with photos|
+|data| accepts an array of object with image urls, description, title, id|
+|dataArr| accepts an array image urls|
 |sIndex|accepts a state with number default as 0|
 |imageWidth|accepts size as string or number|
 |imageHeight|accepts size as string or number|
