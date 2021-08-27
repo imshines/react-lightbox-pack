@@ -1,30 +1,34 @@
-# React LightBox Pack
-## Features
+# ✨ React LightBox Pack
+A Lightweight NPM LightBox Package built with simplicity in mind. Since it's built from Scratch it doesn't need any additional dependencies to work.
+
+## ⭐ Features
 - Built from scratch 👨‍💻⚡
-- Crafted for react ⚛
-- Zero additional dependency ❤
+- Crafted for React ⚛
+- No additional dependency used ❤
 - Customizable 🎨
 <hr />
 
-## Example
+## 🚀 Demo
 
-https://imshines.github.io/react-lightbox-pack/
+- https://imshines.github.io/react-lightbox-pack/
 
-## Instalation
+## 📥 Installation
 
 `npm install react-lightbox-pack`
 or
 `npm i react-lightbox-pack`
 
-## Usage
+## 🍔 Usage
 
-### App.js
+Example code below shows how the Image LightBox pack can be used with sample json data.
+
+#### App.js
 
 ```javascript
 import React from 'react';
-import { Lightbox } from 'react-lightbox-pack';
+import { Lightbox } from 'react-lightbox-pack'; // <--- Importing LightBox Pack
 import "react-lightbox-pack/dist/index.css";
-import data from './data.json';
+import data from './data.json'; // <--- Importing Sample JSON Data
 
 const App = () => {
 	// State
@@ -71,7 +75,7 @@ const App = () => {
 }
 ```
 
-### Sample data.json
+#### Sample data.json
 
 ```json
 [
