@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./styles.module.css";
 import { ReactComponent as RightArrow } from "./assets/arrow_right.svg";
 import { ReactComponent as LeftArrow } from "./assets/arrow_left.svg";
@@ -15,23 +14,23 @@ export const LightBox = ({
   thumbnailWidth = 50,
   setImageIndex,
   imageIndex,
-}) => {
+}: LightBoxTypes) => {
   if (state) {
-    const arrowsHandler = (arrow) => {
+    const arrowsHandler = (arrow: ArrowType) => {
       const arrayLength = data.length - 1;
       switch (arrow) {
         case "next":
           if (imageIndex >= arrayLength) {
             setImageIndex(0);
           } else {
-            setImageIndex((prevState) => prevState + 1);
+            setImageIndex((prevState: ImageIndexType) => prevState + 1);
           }
           break;
         case "prev":
           if (imageIndex <= 0) {
             setImageIndex(arrayLength);
           } else {
-            setImageIndex((prevState) => prevState - 1);
+            setImageIndex((prevState: ImageIndexType) => prevState - 1);
           }
           break;
         default:
@@ -54,7 +53,7 @@ export const LightBox = ({
         <div className={styles.reactLightboxArea}>
           <img
             src={data[imageIndex].image}
-            alt={data.title}
+            alt={data[imageIndex].title}
             style={{ maxHeight: imageHeight, maxWidth: imageWidth }}
           />
           <div className={styles.reactLightboxArrowRight}>

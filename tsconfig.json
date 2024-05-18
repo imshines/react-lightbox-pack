@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2015",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable", "ES6"],
+    "module": "ES6",
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src/index.tsx", "src/types.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
