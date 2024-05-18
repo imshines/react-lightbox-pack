@@ -9,6 +9,11 @@
     "url": "git+https://github.com/imshines/react-lightbox-pack.git"
   },
   "type": "module",
+  "keywords": [
+    "react-lightbox",
+    "lightbox",
+    "lightbox-package"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
