@@ -2,16 +2,18 @@
 
 A Lightweight NPM LightBox Package built with simplicity in mind. Since it's built from Scratch it doesn't need any additional dependencies to work.
 
-## ⭐ Features
+## 🆕 Added Type Safety (Install v0.2.0)
 
+## ⭐ Features
 - Built from scratch 👨‍💻⚡
 - Crafted for React ⚛
 - No additional dependency used ❤
 - Customizable 🎨
 <hr />
 
-## 🚀 Demo
+🔜 Support for overflow thumbnail comming soon, should be sufficient for 5-10 items 😀
 
+## 🚀 Demo
 - https://imshines.github.io/react-lightbox-pack/
 
 ## 📥 Installation
