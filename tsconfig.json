@@ -6,6 +6,8 @@
     "module": "ES6",
     "skipLibCheck": true,
 
+    "typeRoots": ["./node_modules/@types"],
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,

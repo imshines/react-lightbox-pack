@@ -1,19 +1,33 @@
 {
   "name": "react-lightbox-pack",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.1.5",
+  "description": "A minimal lightbox package for react with required features",
+  "author": "imshines",
+  "license": "MIT",
+  "repository": "imshines/react-lightbox-pack",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublish": "pnpm build"
   },
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "source": "src/index.tsx",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0 || ^18.0.0"
+  },
   "devDependencies": {
+    "@types/node": "^20.12.12",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
@@ -23,6 +37,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
-  }
+    "vite": "^5.2.0",
+    "vite-plugin-svgr": "^4.2.0"
+  },
+  "files": [
+    "dist"
+  ]
 }

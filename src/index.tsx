@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
-import { ReactComponent as RightArrow } from "./assets/arrow_right.svg";
-import { ReactComponent as LeftArrow } from "./assets/arrow_left.svg";
-import { ReactComponent as Close } from "./assets/close.svg";
+import RightArrow from "./assets/arrow_right.svg";
+import LeftArrow from "./assets/arrow_left.svg";
+import Close from "./assets/close.svg";
 
 export const LightBox = ({
   state,
