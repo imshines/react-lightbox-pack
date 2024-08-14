@@ -22,6 +22,7 @@ function App() {
           onClick={() => {
             lightBoxHandler(true, index);
           }}
+          className="exampleImage"
         />
       ))}
       <LightBox
